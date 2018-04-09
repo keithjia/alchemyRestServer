@@ -1,0 +1,18 @@
+{
+  "name": "restserver",
+  "version": "1.0.0",
+  "description": "assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "./node_modules/nodeunit/bin/nodeunit ./tests/",
+    "start": "node ./src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lokijs": "^1.5.3",
+    "nodeunit": "^0.11.2",
+    "restify": "^7.1.0",
+    "uuid": "^3.2.1"
+  }
+}
